@@ -26,7 +26,7 @@ gem "awrence", "~> 0.1.0"
 
 group :development do
   gem "rspec", "~> 2.14", ">= 2.14.1"
-  gem "coveralls"
+  gem "coveralls", ">= 0.8.23"
   
   gem "warbler" if RUBY_PLATFORM == 'java'
 end
